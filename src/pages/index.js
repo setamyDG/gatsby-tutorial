@@ -1,5 +1,10 @@
-import React from "react"
+import React from "react";
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <div>
+      Hello world!
+      <p>tak</p>
+    </div>
+  );
 }
