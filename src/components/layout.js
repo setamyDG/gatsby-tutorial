@@ -16,7 +16,7 @@ export default function Layout({ children }) {
     `
   )
   return (
-    <div style={{ margin: "3rem auto", maxWidth: 650, padding: "0 1rem" }}>
+    <div style={{ margin: "3rem auto", maxWidth: 850, padding: "0 1rem" }}>
       <header style={{ marginBottom: "1.5rem" }}>
         <Link to="/" style={{ textShadow: "none", backgroundImage: "none" }}>
           <p>{data.site.siteMetadata.title}</p>
@@ -27,6 +27,7 @@ export default function Layout({ children }) {
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
           <ListLink to="/my-files/">Files</ListLink>
+          <ListLink to="/challange-page/">Challange</ListLink>
         </ul>
       </header>
       {children}

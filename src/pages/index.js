@@ -11,9 +11,9 @@ export default function Home({ data }) {
         Post
       </h1>
       {data.allMarkdownRemark.edges.map(({node}) => (   //question #1
-        <div key={node.id} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <div key={node.id}>
           <h3>
-            {node.frontmatter.title} ---
+            {node.frontmatter.title}
             {node.frontmatter.date}
             {" "}
             <p>{node.excerpt}</p>
@@ -30,7 +30,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
  query {
-     allMarkdownRemark {
+     allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }){
          totalCount
          edges{
              node{
