@@ -1,8 +1,5 @@
 import React from "react";
-import {Link} from 'gatsby';
-import Header from "../components/header";
-import Separator from "../components/separator"
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
