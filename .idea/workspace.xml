@@ -19,13 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="code refactor &amp; add first queries with graphql in gatsby">
-      <change afterPath="$PROJECT_DIR$/src/pages/my-files.js" afterDir="false" />
+    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="added new page what shows current project files structure with some details">
+      <change afterPath="$PROJECT_DIR$/src/pages/first-md-file.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/second-md-file.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/my-files.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my-files.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,7 @@
       <workItem from="1591634486149" duration="38000" />
       <workItem from="1591686751037" duration="51000" />
       <workItem from="1591686803512" duration="6042000" />
-      <workItem from="1591692895214" duration="2387000" />
+      <workItem from="1591692895214" duration="5269000" />
     </task>
     <task id="LOCAL-00001" summary="added links and new pages">
       <created>1591688306104</created>
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591693662916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added new page what shows current project files structure with some details">
+      <created>1591698549528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591698549528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +147,8 @@
     <MESSAGE value="adding css modules and custom components as in tutorial" />
     <MESSAGE value="added typography and custom layout to all pages in project" />
     <MESSAGE value="code refactor &amp; add first queries with graphql in gatsby" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactor &amp; add first queries with graphql in gatsby" />
+    <MESSAGE value="added new page what shows current project files structure with some details" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new page what shows current project files structure with some details" />
   </component>
   <component name="WindowStateProjectService">
     <state x="207" y="161" key="#ESLint" timestamp="1591686914486">
@@ -171,11 +181,11 @@
     </state>
     <state x="221" y="66" key="SettingsEditor/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591692880796" />
     <state x="221" y="66" key="SettingsEditor/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591687125100" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1591693673137">
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1591698559460">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591691831778" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591693673137" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591698559460" />
     <state x="496" y="323" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591687158374">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
