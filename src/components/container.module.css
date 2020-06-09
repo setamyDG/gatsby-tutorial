@@ -1,0 +1,10 @@
+.Container {
+    margin: 3rem auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}

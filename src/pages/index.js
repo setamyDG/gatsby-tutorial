@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       Hello world!
-      <p>tak</p>
+      <p></p>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
       <Header headerTitle="HOME" />
       <Link to='/about/'>About</Link>
