@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby-tutorial Codetain 2020",
+    title: "Gatsby.js",
   },
   plugins: [
     {
@@ -17,5 +17,8 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    "gatsby-plugin-styled-components",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
   ],
 };

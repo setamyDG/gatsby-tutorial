@@ -19,12 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="added md files with custom data and display it on home page via graphql">
-      <change afterPath="$PROJECT_DIR$/src/pages/challange-page.js" afterDir="false" />
+    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="challange from tutorial finished &amp; some fixes with styles">
+      <change afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gatsby-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/container.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/first-md-file.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/first-md-file.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/first-md-file.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/localData/first-md-file.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/second-md-file.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/localData/second-md-file.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +79,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/localData" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/styles" />
     </key>
@@ -84,7 +98,8 @@
       <workItem from="1591634486149" duration="38000" />
       <workItem from="1591686751037" duration="51000" />
       <workItem from="1591686803512" duration="6042000" />
-      <workItem from="1591692895214" duration="6266000" />
+      <workItem from="1591692895214" duration="10783000" />
+      <workItem from="1591771700872" duration="19955000" />
     </task>
     <task id="LOCAL-00001" summary="added links and new pages">
       <created>1591688306104</created>
@@ -128,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591701510073</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="challange from tutorial finished &amp; some fixes with styles">
+      <created>1591702633611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591702633611</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,18 +175,24 @@
     <MESSAGE value="code refactor &amp; add first queries with graphql in gatsby" />
     <MESSAGE value="added new page what shows current project files structure with some details" />
     <MESSAGE value="added md files with custom data and display it on home page via graphql" />
-    <option name="LAST_COMMIT_MESSAGE" value="added md files with custom data and display it on home page via graphql" />
+    <MESSAGE value="challange from tutorial finished &amp; some fixes with styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="challange from tutorial finished &amp; some fixes with styles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="207" y="161" key="#ESLint" timestamp="1591686914486">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="207" y="161" key="#ESLint" timestamp="1591708090821">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="552" y="178" key="#ESLint/0.0.3840.1040@0.0.3840.1040" timestamp="1591634523672" />
     <state x="207" y="161" key="#ESLint/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591686914486" />
+    <state x="207" y="161" key="#ESLint/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591708090821" />
     <state x="444" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591687732106">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="444" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591687732106" />
+    <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591773445062">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.803/-543.-1417.2560.1417@0.23.1440.803" timestamp="1591773445062" />
     <state width="1379" height="195" key="GridCell.Tab.0.bottom" timestamp="1591687203410">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
@@ -181,16 +209,16 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1379" height="195" key="GridCell.Tab.0.right/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591687203409" />
-    <state x="221" y="66" key="SettingsEditor" timestamp="1591692880796">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="221" y="66" key="SettingsEditor" timestamp="1591703521852">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="221" y="66" key="SettingsEditor/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591692880796" />
-    <state x="221" y="66" key="SettingsEditor/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591687125100" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1591701518969">
+    <state x="221" y="66" key="SettingsEditor/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591703521852" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1591702642847">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591691831778" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591701518969" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591702642847" />
     <state x="496" y="323" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591687158374">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
@@ -199,5 +227,9 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591698231337" />
+    <state x="385" y="206" width="670" height="676" key="search.everywhere.popup" timestamp="1591788609529">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="206" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-543.-1417.2560.1337@0.23.1440.877" timestamp="1591788609529" />
   </component>
 </project>
