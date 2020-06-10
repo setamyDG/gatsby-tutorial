@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/layout";
 import styled from "styled-components";
+import Layout from "../components/layout";
 import media from "../utils/media";
 import Footer from "../components/footer";
 
@@ -71,27 +71,27 @@ export default function MyFiles({ data }) {
         <StyledTableContainer>
           <table>
             <thead>
-            <tr>
-              <StyledTh>relative Path</StyledTh>
-              <StyledTh>pretty Size</StyledTh>
-              <StyledTh>extension</StyledTh>
-              <StyledTh>birth Time</StyledTh>
-            </tr>
+              <tr>
+                <StyledTh>relative Path</StyledTh>
+                <StyledTh>pretty Size</StyledTh>
+                <StyledTh>extension</StyledTh>
+                <StyledTh>birth Time</StyledTh>
+              </tr>
             </thead>
             <tbody>
-            {data.allFile.edges.map(({ node }, index) => (
-              <tr key={index}>
-                <StyledTd>{node.relativePath}</StyledTd>
-                <StyledTd>{node.prettySize}</StyledTd>
-                <StyledTd>{node.extension}</StyledTd>
-                <StyledTd>{node.birthTime}</StyledTd>
-              </tr>
-            ))}
+              {data.allFile.edges.map(({ node }, index) => (
+                <tr key={index}>
+                  <StyledTd>{node.relativePath}</StyledTd>
+                  <StyledTd>{node.prettySize}</StyledTd>
+                  <StyledTd>{node.extension}</StyledTd>
+                  <StyledTd>{node.birthTime}</StyledTd>
+                </tr>
+              ))}
             </tbody>
           </table>
         </StyledTableContainer>
       </FilesContent>
-      <Footer footerText='FILES' />
+      <Footer footerText="FILES" />
     </Layout>
   );
 }

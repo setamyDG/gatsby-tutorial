@@ -3,8 +3,7 @@ import { graphql } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/layout";
 import media from "../utils/media";
-import Separator from "../components/separator"
-import Footer from "../components/footer"
+import Footer from "../components/footer";
 
 const HomeContent = styled.div`
   height: 60vh;
@@ -62,16 +61,29 @@ export default function Home({ data }) {
       <HomeContent>
         <StyledTitle>HELLO</StyledTitle>
         <StyledSubtitle>This section shows data from graphql query</StyledSubtitle>
-        <StyledDescription>{data.allMarkdownRemark.totalCount} Posts are fetched via graphQL query from local md files.</StyledDescription>
-        {data.allMarkdownRemark.edges.map(({node}) =>(
+        <StyledDescription>
+          {data.allMarkdownRemark.totalCount}
+          {" "}
+          Posts are fetched via graphQL query from local md files.
+        </StyledDescription>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <StyledData>Title: {node.frontmatter.title} - {node.frontmatter.date}</StyledData>
-            <StyledData>Description: {node.excerpt}</StyledData>
+            <StyledData>
+              Title:
+              {node.frontmatter.title}
+              {" "}
+              -
+              {node.frontmatter.date}
+            </StyledData>
+            <StyledData>
+              Description:
+              {node.excerpt}
+            </StyledData>
 
           </div>
         ))}
       </HomeContent>
-      <Footer footerText='HERE WILL BE MY FOOTER' />
+      <Footer footerText="HERE WILL BE MY FOOTER" />
     </Layout>
   );
 }

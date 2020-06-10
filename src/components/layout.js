@@ -16,7 +16,7 @@ const StyledContainer = styled.div`
 const StyledHeader = styled.div`
   width: 100%;
   height: 35vh;
-  background: ${props => `url(${props.background}) no-repeat top center`};;
+  background: ${(props) => `url(${props.background}) no-repeat top center`};;
   background-size: cover;
   background-position-y: 55%;
   flex-flow: column;
@@ -89,7 +89,7 @@ height: 5rem;
 margin-top: 10px;
 `;
 
-export default function Layout({children}, props) {
+export default function Layout({ children }, props) {
   const data = useStaticQuery(
     graphql`
         query {
@@ -106,7 +106,7 @@ export default function Layout({children}, props) {
     <StyledContainer>
       <StyledNavigationContainer>
         <a href="https://www.gatsbyjs.org/" target="_blank">
-          <StyledImage src={logo} alt=""/>
+          <StyledImage src={logo} alt="" />
         </a>
         <ListLink to="/">HOME</ListLink>
         <ListLink to="/contact">CONTACT</ListLink>
@@ -119,7 +119,7 @@ export default function Layout({children}, props) {
         <StyledName>Daniel Gola</StyledName>
         <StyledWaveDiv>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#2d112a" fill-opacity="1" d="M0,64L48,90.7C96,117,192,171,288,176C384,181,480,139,576,112C672,85,768,75,864,90.7C960,107,1056,149,1152,160C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+            <path fill="#2d112a" fillOpacity="1" d="M0,64L48,90.7C96,117,192,171,288,176C384,181,480,139,576,112C672,85,768,75,864,90.7C960,107,1056,149,1152,160C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" />
           </svg>
         </StyledWaveDiv>
       </StyledHeader>
