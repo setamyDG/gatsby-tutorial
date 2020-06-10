@@ -2,125 +2,94 @@ import React from "react";
 import { graphql } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/layout";
+import media from "../utils/media";
+import Separator from "../components/separator"
+import Footer from "../components/footer"
 
-const StyledHomeContent = styled.div`
-  width: 100vw;
+const HomeContent = styled.div`
   height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-flow: column;
-  background: white;
-`;
-const StyledInfo = styled.p`
-  color: black;
-  font-family: Georgia;
-  text-transform: uppercase;
-  border-bottom: 1px solid black;
-`;
-
-const StyledBottomContainer = styled.div`
-  height: 30vh;
   width: 100vw;
-  display:flex;
+  z-index: 1;
+  margin-top: 25rem;
 `;
 
-const StyledBottomLeft = styled.div`
-  width: 50vw;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  border-right: 2px solid black;
-`;
-
-const StyledBottomRight = styled(StyledBottomLeft)`
-border-right: none
-`;
-
-const StyledPostTitle = styled.h1`
- font-width: bold;
- text-transform: uppercase;
- font-family: "Apple Braille";
- font-size: 35px;
- border-bottom: 1px solid black;
-`;
-
-const StyledPostDescription = styled.p`
-  text-justify: auto;
-  font-family: Helvetica;
-  font-weight: bold;
-  font-size: 10px;
-  margin-bottom: 60px;
+const StyledTitle = styled.h1`
+  font-family: "Russo One";
+  color: #e43f5a;;
   text-transform: uppercase;
+  margin-top: 25px;
+  ${media.tablet`
+  margin-top: -40px;
+  margin-bottom: 55px;
+  `}
+  ${media.mobile`
+  font-size: 30px;
+  `}
+
+`;
+const StyledSubtitle = styled.p`
+  font-size: 20px;
+  color: #e43f5a;;
+  font-family: "Russo One";
+  ${media.tablet`
+  margin-top: -35px;
+  font-size: 18px;
+  `}
+  ${media.mobile`
+  font-size: 18px;
+  `}
 `;
 
-const StyledCustomButton = styled.div`
-  width: 350px;
-  height: 70px;
-  background: blue;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-family: "Comic Sans MS";
-  :hover{
-    cursor: pointer;
-  }
+const StyledDescription = styled.p`
+  font-size: 15px;
+  color: #e43f5a;
+  font-family: "Russo One";
+  ${media.tablet`
+  font-size: 18px;
+  `}
+  ${media.mobile`
+  font-size: 16px;
+  `}
+`;
+
+const StyledData = styled(StyledDescription)`
+  color: black;
 `;
 
 export default function Home({ data }) {
   return (
-    <Layout>
-      <StyledHomeContent>
-        <StyledInfo>
-          Hello.
-          <br />
-          {" "}
-          This section presents a content with some query data.
-        </StyledInfo>
-        <p>
-          {data.allMarkdownRemark.totalCount}
-          {" "}
-          Posts have been loaded
-        </p>
-        <StyledBottomContainer>
-          <StyledBottomLeft>
-            {data.allMarkdownRemark.edges.map(({ node }) => (
-              <div key={node.id}>
-                <StyledPostTitle>{node.frontmatter.title}</StyledPostTitle>
-                <p>{node.frontmatter.date}</p>
-                <StyledPostDescription>{node.excerpt}</StyledPostDescription>
-              </div>
-            ))}
-          </StyledBottomLeft>
-          <StyledBottomRight>
-            <StyledPostTitle>Click here to learn more.</StyledPostTitle>
-            <StyledCustomButton>GATSBY DOC</StyledCustomButton>
-          </StyledBottomRight>
-        </StyledBottomContainer>
-      </StyledHomeContent>
+    <Layout background="https://ak.picdn.net/shutterstock/videos/1027770314/thumb/1.jpg?ip=x480">
+      <HomeContent>
+        <StyledTitle>HELLO</StyledTitle>
+        <StyledSubtitle>This section shows data from graphql query</StyledSubtitle>
+        <StyledDescription>{data.allMarkdownRemark.totalCount} Posts are fetched via graphQL query from local md files.</StyledDescription>
+        {data.allMarkdownRemark.edges.map(({node}) =>(
+          <div key={node.id}>
+            <StyledData>Title: {node.frontmatter.title} - {node.frontmatter.date}</StyledData>
+            <StyledData>Description: {node.excerpt}</StyledData>
+
+          </div>
+        ))}
+      </HomeContent>
+      <Footer footerText='HERE WILL BE MY FOOTER' />
     </Layout>
   );
 }
 
 export const query = graphql`
- query {
-     allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }){
-         totalCount
-         edges{
-             node{
-                 id
-                 frontmatter {
-                     title
-                     date(formatString: "DD MMMM, YYYY")
-                 }
-                 excerpt
-             }
-         }
-     }
- }
+    query {
+        allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }){
+            totalCount
+            edges{
+                node{
+                    id
+                    frontmatter {
+                        title
+                        date(formatString: "DD MMMM, YYYY")
+                    }
+                    excerpt
+                }
+            }
+        }
+    }
 `;

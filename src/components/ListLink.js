@@ -5,11 +5,12 @@ import styled from "styled-components";
 const StyledLi = styled.li`
   display: inline-block;
   margin: 1rem;
+  font-family: "Russo One";
 `;
 
 const StyledLink = styled(Link)`
-  color: white;
-  font-size: 20px;
+  color: #e43f5a;;
+  font-size: 15px;
   text-decoration: none;
   :hover {
   border-bottom: 1px solid white
