@@ -22,7 +22,7 @@ const StyledTitle = styled.h1`
   margin-top: 30px;
   font-family: "Russo One";;
   ${media.tablet`
-  margin-top: -100px;
+  margin-top: -120px;
   margin-bottom: 45px;
   `}
   ${media.mobile`
@@ -33,6 +33,7 @@ const StyledTitle = styled.h1`
 `;
 const StyledSubtitle = styled.p`
   font-size: 20px;
+  margin-top: -10px;
   color: #e43f5a;
   ${media.tablet`
   margin-top: -35px;
@@ -47,16 +48,21 @@ const StyledTableContainer = styled.div`
   width: 80vw;
   height: 250px;
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  text-justify: auto;
 `;
 
 const StyledTh = styled.th`
   color: #e43f5a;
   text-transform: uppercase;
+  border-bottom: 1px solid black;
 `;
 
 const StyledTd = styled.td`
   color: #e43f5a;
   text-transform: uppercase;
+  border-bottom: 1px solid black;
 `;
 
 export default function MyFiles({ data }) {

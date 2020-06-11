@@ -19,14 +19,14 @@ const StyledTitle = styled.h1`
   font-weight: ${({theme}) => theme.font.bold};
   font-family: "Russo One";
   color: white;
-  margin-top: 8rem;
+  margin-top: 6rem;
   border-bottom: 1px solid white;
   font-size: 50px;
   text-transform: uppercase;
 `;
 
 const StyledSubtitle = styled.p`
-  font-weight: bold;
+  font-weight: ${({theme}) => theme.font.normal};
   color: white;
   text-transform: uppercase;
   font-size: 20px;
@@ -34,12 +34,13 @@ const StyledSubtitle = styled.p`
 
 const StyledName = styled(StyledSubtitle)`
   font-size: 16px;
+  font-weight: ${({theme}) => theme.font.normal};
 `;
 
 const StyledWaveDiv = styled.div`
 width: 100vw;
 height: 5rem;
-margin-top: 10px;
+margin-top: -10px;
 `;
 
 const Header = (props) => (

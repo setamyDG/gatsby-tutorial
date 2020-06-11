@@ -6,6 +6,7 @@ const Button = styled.button`
   margin: 1em;
   padding: 0.25em 1em;
   background: #e43f5a;
+  font-family: "Russo One";
   border-radius: 3px;
   color: white;
   border: 2px solid #e43f5a;

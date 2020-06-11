@@ -4,12 +4,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-typography",
-      options: {
-        pathToConfigModule: "src/utils/typography",
-      },
-    },
-    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
@@ -21,7 +15,6 @@ module.exports = {
       options: {
         fonts: [
           "Russo One",
-          "source Russo One\:300,400,400i,700", // you can also specify font weights and styles
         ],
         display: "swap",
       },

@@ -6,5 +6,6 @@ export const theme = {
   waveInfo,
   font: {
     bold: 800,
+    normal: 400,
   },
 };
