@@ -5,8 +5,8 @@ const StyledFooter = styled.div`
   width: 100vw;
   height: 5rem;
   background: black;
-  flex-flow: row;
   display: flex;
+  flex-flow: row;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -15,7 +15,6 @@ const StyledFooter = styled.div`
 const StyledText = styled.p`
   color: white;
   text-transform: uppercase;
-  margin: 1rem;
 `;
 const Footer = (props) => (
   <StyledFooter>

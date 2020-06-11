@@ -19,7 +19,7 @@ const StyledTitle = styled.h1`
   font-weight: ${({theme}) => theme.font.bold};
   font-family: "Russo One";
   color: white;
-  margin-top: 6rem;
+  margin-top: 85px;
   border-bottom: 1px solid white;
   font-size: 50px;
   text-transform: uppercase;
@@ -39,8 +39,7 @@ const StyledName = styled(StyledSubtitle)`
 
 const StyledWaveDiv = styled.div`
 width: 100vw;
-height: 5rem;
-margin-top: -10px;
+height: 5vh;
 `;
 
 const Header = (props) => (
