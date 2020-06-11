@@ -19,7 +19,7 @@ const StyledTitle = styled.h1`
   font-weight: ${({theme}) => theme.font.bold};
   font-family: "Russo One";
   color: white;
-  margin-top: 85px;
+  margin-top: 100px;
   border-bottom: 1px solid white;
   font-size: 50px;
   text-transform: uppercase;
@@ -37,9 +37,11 @@ const StyledName = styled(StyledSubtitle)`
   font-weight: ${({theme}) => theme.font.normal};
 `;
 
-const StyledWaveDiv = styled.div`
+const StyledSvg = styled.svg`
 width: 100vw;
-height: 5vh;
+height: auto;
+margin-top: -15px;
+display: flex;
 `;
 
 const Header = (props) => (
@@ -47,11 +49,11 @@ const Header = (props) => (
     <StyledTitle>{props.title}</StyledTitle>
     <StyledSubtitle>-Codetain tutorial 2020-</StyledSubtitle>
     <StyledName>Daniel Gola</StyledName>
-    <StyledWaveDiv>
-      <svg xmlns={theme.waveInfo.xmlns} viewBox="0 0 1440 320">
+    <div>
+      <StyledSvg xmlns={theme.waveInfo.xmlns} viewBox="0 0 1440 185">
         <path fill={theme.waveInfo.waveColor} fillOpacity="1" d={theme.waveInfo.waveTrace} />
-      </svg>
-    </StyledWaveDiv>
+      </StyledSvg>
+    </div>
   </StyledHeader>
 );
 

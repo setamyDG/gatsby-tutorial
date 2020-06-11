@@ -7,10 +7,14 @@ import CustomButton from "../components/customButton";
 import Footer from "../components/footer";
 
 const AboutContent = styled.div`
-  height: 60vh;
+  height: 65vh;
   width: 100vw;
   z-index: 1;
   margin-top: 25rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
 `;
 
 const StyledTitle = styled.h1`

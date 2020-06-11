@@ -5,10 +5,14 @@ import media from "../utils/media";
 import Footer from "../components/footer";
 
 const ContactContent = styled.div`
-  height: 60vh;
+  height: 65vh;
   width: 100vw;
   z-index: 1;
   margin-top: 25rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
 `;
 
 const StyledTitle = styled.h1`
@@ -23,8 +27,8 @@ const StyledTitle = styled.h1`
   ${media.mobile`
   font-size: 30px;
   `}
-
 `;
+
 const StyledSubtitle = styled.p`
   font-size: 20px;
   color: #e43f5a;;

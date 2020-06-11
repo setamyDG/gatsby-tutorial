@@ -6,7 +6,7 @@ import media from "../utils/media";
 import Footer from "../components/footer";
 
 const FilesContent = styled.div`
-  height: 60vh;
+  height: 65vh;
   width: 100vw;
   z-index: 1;
   margin-top: 25rem;
@@ -48,9 +48,9 @@ const StyledTableContainer = styled.div`
   width: 80vw;
   height: 250px;
   overflow: auto;
-  display: flex;
   justify-content: center;
   text-justify: auto;
+  display: flex;
 `;
 
 const StyledTh = styled.th`

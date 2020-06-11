@@ -6,7 +6,7 @@ import media from "../utils/media";
 import Footer from "../components/footer";
 
 const TestContent = styled.div`
-  height: 60vh;
+  height: 65vh;
   width: 100vw;
   z-index: 1;
   margin-top: 25rem;
@@ -55,6 +55,7 @@ const LinkToSlug = styled(Link)`
 
 const PostTitleText = styled.p`
     color: black;
+    margin: 1rem;
 `;
 const PostDateText = styled.span`
     color: #e43f5a; ;
