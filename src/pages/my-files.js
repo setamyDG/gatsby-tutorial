@@ -17,10 +17,10 @@ const FilesContent = styled.div`
 `;
 
 const StyledTitle = styled.h1`
-  font-family: "Russo One";
   color: #e43f5a;;
   text-transform: uppercase;
   margin-top: 30px;
+  font-family: "Russo One";;
   ${media.tablet`
   margin-top: -100px;
   margin-bottom: 45px;
@@ -34,7 +34,6 @@ const StyledTitle = styled.h1`
 const StyledSubtitle = styled.p`
   font-size: 20px;
   color: #e43f5a;
-  font-family: "Russo One";
   ${media.tablet`
   margin-top: -35px;
   font-size: 18px;
@@ -51,13 +50,11 @@ const StyledTableContainer = styled.div`
 `;
 
 const StyledTh = styled.th`
-  font-family: "Russo One";
   color: #e43f5a;
   text-transform: uppercase;
 `;
 
 const StyledTd = styled.td`
-  font-family: "Russo One";
   color: #e43f5a;
   text-transform: uppercase;
 `;

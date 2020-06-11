@@ -13,9 +13,8 @@ const StyledFooter = styled.div`
 `;
 
 const StyledText = styled.p`
-  color: #e43f5a;
+  color: white;
   text-transform: uppercase;
-  font-family: "Russo One";
   margin: 1rem;
 `;
 const Footer = (props) => (

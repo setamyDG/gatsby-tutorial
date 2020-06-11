@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Button = styled.button`
   font-size: 1em;
-  font-family: "Russo One";
   margin: 1em;
   padding: 0.25em 1em;
   background: #e43f5a;
@@ -16,7 +15,7 @@ const Button = styled.button`
   }
 `;
 
-const CustomButton = (props) => (
+const CustomButton = () => (
   <a href="https://www.gatsbyjs.org/" target="_blank">
     <Button primary>LEARN MORE</Button>
   </a>

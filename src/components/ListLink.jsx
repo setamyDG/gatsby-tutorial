@@ -5,7 +5,6 @@ import styled from "styled-components";
 const StyledLi = styled.li`
   display: inline-block;
   margin: 1rem;
-  font-family: "Russo One";
 `;
 
 const StyledLink = styled(Link)`
