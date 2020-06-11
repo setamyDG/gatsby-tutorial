@@ -24,6 +24,7 @@ const StyledTitle = styled.h1`
   `}
   ${media.mobile`
   font-size: 30px;
+  margin-top: -10px;
   `}
 `;
 
@@ -34,6 +35,22 @@ const StyledContentSlug = styled.div`
   z-index: -1;
 `;
 
+const StyledDiv = styled.div`
+  margin: 3rem;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  ${media.tablet`
+  margin-top: 0px;
+  margin-bottom: 10px;
+  `}
+  ${media.mobile`
+  margin-top: -15px;
+  `}
+`;
+
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;
@@ -42,7 +59,7 @@ export default function BlogPost({ data }) {
       <PostContentContainer>
         <StyledContentSlug>
           <StyledTitle>Local data page</StyledTitle>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <StyledDiv dangerouslySetInnerHTML={{ __html: post.html }} />
         </StyledContentSlug>
       </PostContentContainer>
       <Footer footerText='Hello'/>

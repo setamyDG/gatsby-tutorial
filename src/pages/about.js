@@ -20,14 +20,13 @@ const AboutContent = styled.div`
 const StyledTitle = styled.h1`
   color: #e43f5a;
   text-transform: uppercase;
-  margin-top: 100px;
   font-family: "Russo One";
   ${media.tablet`
-  margin-top: 50px;
+  margin-top: -50px;
   margin-bottom: 55px;
   `}
   ${media.mobile`
-  margin-top: 50px;
+  margin-top: -50px;
   font-size: 30px;
   `}
 
@@ -36,10 +35,7 @@ const StyledSubtitle = styled.p`
   font-size: 20px;
   color: #e43f5a;
   ${media.tablet`
-  margin-top: -35px;
-  font-size: 18px;
-  `}
-  ${media.mobile`
+  margin-top: -50px;
   font-size: 18px;
   `}
 `;

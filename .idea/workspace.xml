@@ -19,16 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="16:9 looks ok">
+    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/localData/first-md-file.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/localData/first-md-file.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/localData/second-md-file.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/localData/second-md-file.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/my-files.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my-files.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/slug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/slug.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +96,7 @@
       <workItem from="1591863940586" duration="2545000" />
       <workItem from="1591866509640" duration="13604000" />
       <workItem from="1591881141962" duration="2108000" />
-      <workItem from="1591884965656" duration="5771000" />
+      <workItem from="1591884965656" duration="7075000" />
     </task>
     <task id="LOCAL-00001" summary="added links and new pages">
       <created>1591688306104</created>
@@ -187,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591882801730</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Make all pages to display: flex css property">
+      <created>1591896497122</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591896497122</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +221,8 @@
     <MESSAGE value="Added global style from styled-components, change components to .jsx extension, added theme provider and refactor project stucture" />
     <MESSAGE value="Added slug pages from local files, style slug page and other styling fixes" />
     <MESSAGE value="16:9 looks ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="16:9 looks ok" />
+    <MESSAGE value="Make all pages to display: flex css property" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make all pages to display: flex css property" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#ESLint" timestamp="1591865869881">
@@ -237,10 +240,10 @@
     </state>
     <state x="1221" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3840.1040@0.0.3840.1040" timestamp="1591874861642" />
     <state x="458" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.803/-543.-1417.2560.1417@0.23.1440.803" timestamp="1591773445062" />
-    <state x="2490" y="27" key="CommitChangelistDialog2" timestamp="1591882806960">
+    <state x="2490" y="27" key="CommitChangelistDialog2" timestamp="1591896496391">
       <screen x="0" y="0" width="3840" height="1040" />
     </state>
-    <state x="2490" y="27" key="CommitChangelistDialog2/0.0.3840.1040@0.0.3840.1040" timestamp="1591882806960" />
+    <state x="2490" y="27" key="CommitChangelistDialog2/0.0.3840.1040@0.0.3840.1040" timestamp="1591896496391" />
     <state width="1379" height="195" key="GridCell.Tab.0.bottom" timestamp="1591687203410">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
@@ -262,10 +265,10 @@
     </state>
     <state x="221" y="66" key="SettingsEditor/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591692880796" />
     <state x="221" y="66" key="SettingsEditor/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591703521852" />
-    <state x="853" y="185" key="Vcs.Push.Dialog.v2" timestamp="1591882814889">
+    <state x="853" y="185" key="Vcs.Push.Dialog.v2" timestamp="1591896507777">
       <screen x="0" y="0" width="3840" height="1040" />
     </state>
-    <state x="853" y="185" key="Vcs.Push.Dialog.v2/0.0.3840.1040@0.0.3840.1040" timestamp="1591882814889" />
+    <state x="853" y="185" key="Vcs.Push.Dialog.v2/0.0.3840.1040@0.0.3840.1040" timestamp="1591896507777" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591691831778" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591702642847" />
     <state x="496" y="323" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591687158374">

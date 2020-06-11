@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { theme } from "../utils/theme";
+import media from "../utils/media"
 
 const StyledHeader = styled.div`
   width: 100%;
@@ -38,10 +39,12 @@ const StyledName = styled(StyledSubtitle)`
 `;
 
 const StyledSvg = styled.svg`
-width: 100vw;
-height: auto;
-margin-top: -15px;
-display: flex;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  ${media.mobile`
+    margin-top: 0px;
+  `}
 `;
 
 const Header = (props) => (
