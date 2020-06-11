@@ -94,7 +94,7 @@ export default function MyFiles({ data }) {
           </table>
         </StyledTableContainer>
       </FilesContent>
-      <Footer footerText="FILES" />
+      <Footer footerText="project files" />
     </Layout>
   );
 }

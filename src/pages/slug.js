@@ -95,7 +95,7 @@ export default function Home({ data }) {
           </PostContainer>
         ))}
       </TestContent>
-      <Footer footerText="I have no idea how to style .md file content" />
+      <Footer footerText="this looks pretty simple" />
     </Layout>
   );
 }
