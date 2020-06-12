@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 import { theme } from "../utils/theme";
-import media from "../utils/media"
+import media from "../utils/media";
 
 const StyledHeader = styled.div`
   width: 100%;
@@ -17,7 +18,7 @@ const StyledHeader = styled.div`
 `;
 
 const StyledTitle = styled.h1`
-  font-weight: ${({theme}) => theme.font.bold};
+  font-weight: ${({ theme }) => theme.font.bold};
   font-family: "Russo One";
   color: white;
   margin-top: 100px;
@@ -27,7 +28,7 @@ const StyledTitle = styled.h1`
 `;
 
 const StyledSubtitle = styled.p`
-  font-weight: ${({theme}) => theme.font.normal};
+  font-weight: ${({ theme }) => theme.font.normal};
   color: white;
   text-transform: uppercase;
   font-size: 20px;
@@ -35,7 +36,7 @@ const StyledSubtitle = styled.p`
 
 const StyledName = styled(StyledSubtitle)`
   font-size: 16px;
-  font-weight: ${({theme}) => theme.font.normal};
+  font-weight: ${({ theme }) => theme.font.normal};
 `;
 
 const StyledSvg = styled.svg`
@@ -61,3 +62,13 @@ const Header = (props) => (
 );
 
 export default Header;
+
+Header.defaultProps = {
+  title: "Gatsby.js",
+  background: "",
+};
+
+Header.propTypes = {
+  title: PropTypes.string,
+  background: PropTypes.string,
+};

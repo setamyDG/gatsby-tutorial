@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
+import PropTypes from 'prop-types';
 
 const StyledLi = styled.li`
   display: inline-block;
@@ -23,3 +24,12 @@ const ListLink = (props) => (
 );
 
 export default ListLink;
+
+ListLink.defaultProps = {
+  to: "",
+};
+
+ListLink.propTypes = {
+  to: PropTypes.string,
+  children: PropTypes.element.isRequired,
+};

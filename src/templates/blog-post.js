@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/layout";
 import styled from "styled-components";
+import Layout from "../components/layout";
 import Footer from "../components/footer";
 import media from "../utils/media";
 
@@ -59,10 +59,10 @@ export default function BlogPost({ data }) {
       <PostContentContainer>
         <StyledContentSlug>
           <StyledTitle>Local data page</StyledTitle>
-            <StyledDiv dangerouslySetInnerHTML={{ __html: post.html }} />
+          <StyledDiv dangerouslySetInnerHTML={{ __html: post.html }} />
         </StyledContentSlug>
       </PostContentContainer>
-      <Footer footerText='Hello'/>
+      <Footer footerText="Hello" />
     </Layout>
   );
 }

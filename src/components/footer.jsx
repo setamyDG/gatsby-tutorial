@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const StyledFooter = styled.div`
   width: 100vw;
@@ -13,7 +14,7 @@ const StyledFooter = styled.div`
 `;
 
 const StyledText = styled.p`
-  color: red;
+  color: white;
   text-transform: uppercase;
 `;
 const Footer = (props) => (
@@ -23,3 +24,11 @@ const Footer = (props) => (
 );
 
 export default Footer;
+
+Footer.defaultProps = {
+  footerText: "Gatsby.js Tutorial",
+};
+
+Footer.propTypes = {
+  footerText: PropTypes.string,
+};
