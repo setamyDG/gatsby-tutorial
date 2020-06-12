@@ -13,7 +13,7 @@ const StyledFooter = styled.div`
 `;
 
 const StyledText = styled.p`
-  color: white;
+  color: red;
   text-transform: uppercase;
 `;
 const Footer = (props) => (
