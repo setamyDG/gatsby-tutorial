@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Layout from "../components/layout";
 import media from "../utils/media";
 import Footer from "../components/footer";
-import SEO from "../components/seo"
+import SEO from "../components/seo";
 
 const TestContent = styled.div`
   height: 65vh;
@@ -20,7 +20,7 @@ const TestContent = styled.div`
 const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
-  margin-top: 45px;
+  margin-top: 75px;
   font-size: 25px;
   font-family: "Russo One";;
   ${media.tablet`

@@ -5,7 +5,7 @@ import logo from "../assets/images/gatsby-logo.png";
 import ListLink from "./ListLink";
 
 const StyledNavigationContainer = styled.div`
-  width: 55%;
+  width: 750px;
   height: 7vh;
   top:0;
   background: black;                // background: '$'{({theme}) => theme.colors.black} nie działa, mimo, że ten cały komponent jest dzieckiem ThemeProvidera - chyba ze musze ten theme wszedzie importowac

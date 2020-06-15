@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Layout from "../components/layout";
 import media from "../utils/media";
 import Footer from "../components/footer";
-import SEO from "../components/seo"
+import SEO from "../components/seo";
 
 const FilesContent = styled.div`
   height: 65vh;
@@ -69,7 +69,7 @@ const StyledTd = styled.td`
 export default function MyFiles({ data }) {
   return (
     <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
-      <SEO title="Files"/>
+      <SEO title="Files" />
       <FilesContent>
         <StyledTitle>Project structure</StyledTitle>
         <StyledSubtitle>This page shows all project files</StyledSubtitle>

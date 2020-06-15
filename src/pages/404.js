@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import GlobalStyle from "../golbalStyle/style";
-import Footer from "../components/footer"
 
 const StyledContainer = styled.div`
   width: 100vw;

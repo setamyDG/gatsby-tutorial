@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Layout from "../components/layout";
 import media from "../utils/media";
 import Footer from "../components/footer";
-import SEO from "../components/seo"
+import SEO from "../components/seo";
 
 const HomeContent = styled.div`
   height: 65vh;
@@ -60,7 +60,7 @@ const StyledData = styled(StyledDescription)`
 export default function Home({ data }) {
   return (
     <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
-      <SEO title='Home' />
+      <SEO title="Home" />
       <HomeContent>
         <StyledTitle>HELLO</StyledTitle>
         <StyledSubtitle>This section shows data from graphql query</StyledSubtitle>
