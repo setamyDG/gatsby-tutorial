@@ -20,7 +20,7 @@ const StyledHeader = styled.div`
 const StyledTitle = styled.h1`
   font-weight: ${({ theme }) => theme.font.bold};
   font-family: "Russo One";
-  color: white;
+  color: ${({theme}) => theme.colors.white};
   margin-top: 200px;
   border-bottom: 1px solid white;
   font-size: 50px;
@@ -29,7 +29,7 @@ const StyledTitle = styled.h1`
 
 const StyledSubtitle = styled.p`
   font-weight: ${({ theme }) => theme.font.normal};
-  color: white;
+  color: ${({theme}) => theme.colors.white};
   text-transform: uppercase;
   font-size: 20px;
 `;

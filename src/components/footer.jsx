@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const StyledFooter = styled.div`
   width: 100vw;
   height: 5rem;
-  background: black;
+  background: ${({ theme }) => theme.colors.black};
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -14,7 +14,7 @@ const StyledFooter = styled.div`
 `;
 
 const StyledText = styled.p`
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
   text-transform: uppercase;
 `;
 const Footer = (props) => (

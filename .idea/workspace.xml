@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="eslint fixes &amp; deleted unused imports">
+    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="margin fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListLink.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavigationContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/my-files.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my-files.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/slug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/slug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/colors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
       <workItem from="1591972264326" duration="1444000" />
       <workItem from="1591974327561" duration="229000" />
       <workItem from="1592116835700" duration="869000" />
-      <workItem from="1592203224532" duration="15685000" />
+      <workItem from="1592203224532" duration="16648000" />
     </task>
     <task id="LOCAL-00001" summary="added links and new pages">
       <created>1591688306104</created>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592223689923</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="margin fixes">
+      <created>1592224268949</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1592224268949</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +291,8 @@
     <MESSAGE value="added react-helmet to project. Set up properties fot better performance (using Lighthouse)" />
     <MESSAGE value="added styled 404 page" />
     <MESSAGE value="eslint fixes &amp; deleted unused imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="eslint fixes &amp; deleted unused imports" />
+    <MESSAGE value="margin fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="margin fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#ESLint" timestamp="1591865869881">
@@ -328,13 +335,13 @@
     </state>
     <state x="221" y="66" key="SettingsEditor/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591692880796" />
     <state x="221" y="66" key="SettingsEditor/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591703521852" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1592223697248">
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1592224281075">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="853" y="185" key="Vcs.Push.Dialog.v2/0.0.3840.1040@0.0.3840.1040" timestamp="1591972397410" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1592215275223" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591702642847" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.877/-543.-1417.2560.1337@0.23.1440.877" timestamp="1592223697248" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.877/-543.-1417.2560.1337@0.23.1440.877" timestamp="1592224281075" />
     <state x="496" y="323" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591687158374">
       <screen x="0" y="23" width="1440" height="806" />
     </state>

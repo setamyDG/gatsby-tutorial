@@ -20,7 +20,7 @@ const StyledLink = styled(Link)`
 const ListLink = (props) => (
   <ul>
     <StyledLi>
-      <StyledLink to={props.to}>{props.children}</StyledLink>
+      <StyledLink to={props.to} >{props.children}</StyledLink>
     </StyledLi>
   </ul>
 );

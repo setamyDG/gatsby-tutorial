@@ -5,10 +5,10 @@ const Button = styled.button`
   font-size: 1em;
   margin: 1em;
   padding: 0.25em 1em;
-  background: ${({ background }) => background};
+  background: #e43f5a;
   font-family: "Russo One";
   border-radius: 3px;
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
   border: 2px solid #e43f5a;
   :hover{
   cursor:pointer;
@@ -18,7 +18,7 @@ const Button = styled.button`
 
 const CustomButton = () => (
   <a href="https://www.gatsbyjs.org/" target="_blank">
-    <Button background="#e43f5a">LEARN MORE</Button>
+    <Button>LEARN MORE</Button>
   </a>
 );
 

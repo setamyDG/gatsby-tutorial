@@ -8,7 +8,7 @@ const StyledNavigationContainer = styled.div`
   width: 750px;
   height: 7vh;
   top:0;
-  background: black;                // background: '$'{({theme}) => theme.colors.black} nie działa, mimo, że ten cały komponent jest dzieckiem ThemeProvidera - chyba ze musze ten theme wszedzie importowac
+  background: ${({ theme }) => theme.colors.black};
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
   box-shadow: 0 5px 25px rgba(0,0,0, .5);
