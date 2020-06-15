@@ -17,7 +17,7 @@ const Button = styled.button`
 `;
 
 const CustomButton = () => (
-  <a href="https://www.gatsbyjs.org/" target="_blank">
+  <a href="https://www.gatsbyjs.org/" target="_blank" rel="canonical">
     <Button>LEARN MORE</Button>
   </a>
 );

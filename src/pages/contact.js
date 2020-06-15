@@ -20,7 +20,6 @@ const StyledTitle = styled.h1`
   color: #e43f5a;
   margin-top: 150px;
   text-transform: uppercase;
-  font-family: "Russo One";
   ${media.tablet`
   margin-top: 0px;
   margin-bottom: 55px;

@@ -22,7 +22,6 @@ const StyledTitle = styled.h1`
   text-transform: uppercase;
   margin-top: 150px;
   font-size: 25px;
-  font-family: "Russo One";;
   ${media.tablet`
   margin-top: -0px;
   margin-bottom: 45px;
