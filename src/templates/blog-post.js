@@ -17,7 +17,7 @@ const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
   font-family: "Russo One";
-  margin-top: 60px;
+  margin-top: 200px;
   ${media.tablet`
   margin-top: 10px;
   margin-bottom: 10px;
@@ -33,6 +33,13 @@ const StyledContentSlug = styled.div`
   width: 100vw;
   justify-content: center;
   z-index: -1;
+  > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  text-align: justify;
+  }
 `;
 
 const StyledDiv = styled.div`
@@ -55,7 +62,7 @@ const StyledDiv = styled.div`
 export default function BlogPost({ data }) {
   const post = data.markdownRemark;
   return (
-    <Layout>
+    <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
       <PostContentContainer>
         <StyledContentSlug>
           <StyledTitle>Local data page</StyledTitle>

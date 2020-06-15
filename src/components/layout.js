@@ -27,7 +27,7 @@ const StyledContainer = styled.div`
  flex-flow: column;
 `;
 
-export default function Layout({ children }) {
+export default function Layout({ children, bg }) {
   const data = useStaticQuery(
     graphql`
         query {
@@ -46,7 +46,7 @@ export default function Layout({ children }) {
         <GlobalStyle />
         <StyledContainer>
           <NavigationContainer />
-          <Header title={data.site.siteMetadata.title} background="https://images8.alphacoders.com/679/679478.jpg" />
+          <Header title={data.site.siteMetadata.title} background={bg} />
           {children}
         </StyledContainer>
       </>

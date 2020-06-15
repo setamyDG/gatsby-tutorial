@@ -42,7 +42,7 @@ const StyledSubtitle = styled.p`
 
 export default function About({ data }) {
   return (
-    <Layout>
+    <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
       <AboutContent>
         <StyledTitle>{data.site.siteMetadata.title}</StyledTitle>
         <StyledSubtitle>

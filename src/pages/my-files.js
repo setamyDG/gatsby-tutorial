@@ -67,7 +67,7 @@ const StyledTd = styled.td`
 
 export default function MyFiles({ data }) {
   return (
-    <Layout>
+    <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
       <FilesContent>
         <StyledTitle>Project structure</StyledTitle>
         <StyledSubtitle>This page shows all project files</StyledSubtitle>

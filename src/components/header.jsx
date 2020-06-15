@@ -5,8 +5,8 @@ import { theme } from "../utils/theme";
 import media from "../utils/media";
 
 const StyledHeader = styled.div`
-  width: 100%;
-  height: 35vh;
+  width: 100vw;
+  height: 500px;
   background: ${(props) => `url(${props.background}) no-repeat top center`};;
   background-size: cover;
   background-position-y: 55%;
@@ -21,7 +21,7 @@ const StyledTitle = styled.h1`
   font-weight: ${({ theme }) => theme.font.bold};
   font-family: "Russo One";
   color: white;
-  margin-top: 100px;
+  margin-top: 200px;
   border-bottom: 1px solid white;
   font-size: 50px;
   text-transform: uppercase;
@@ -43,8 +43,12 @@ const StyledSvg = styled.svg`
   width: 100vw;
   height: auto;
   display: flex;
+  margin-top: 45px;
   ${media.mobile`
-    margin-top: 0px;
+    margin-top: 45px;
+  `}
+  ${media.tablet`
+    margin-top: 65px;
   `}
 `;
 

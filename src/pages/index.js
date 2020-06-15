@@ -20,7 +20,6 @@ const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
   font-family: "Russo One";
-  margin-top: 50px;
   ${media.tablet`
   margin-top: -40px;
   margin-bottom: 55px;
@@ -59,7 +58,7 @@ const StyledData = styled(StyledDescription)`
 
 export default function Home({ data }) {
   return (
-    <Layout background="https://ak.picdn.net/shutterstock/videos/1027770314/thumb/1.jpg?ip=x480">
+    <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
       <HomeContent>
         <StyledTitle>HELLO</StyledTitle>
         <StyledSubtitle>This section shows data from graphql query</StyledSubtitle>
