@@ -20,14 +20,14 @@ const FilesContent = styled.div`
 const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 150px;
   font-family: "Russo One";;
   ${media.tablet`
-  margin-top: -120px;
+  margin-top: 0px;
   margin-bottom: 45px;
   `}
   ${media.mobile`
-  margin-top: -100px;
+  margin-top: 0px;
   font-size: 30px;
   `}
 

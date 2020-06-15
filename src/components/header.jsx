@@ -43,7 +43,7 @@ const StyledSvg = styled.svg`
   width: 100vw;
   height: auto;
   display: flex;
-  margin-top: 45px;
+  margin-top: 55px;
   ${media.mobile`
     margin-top: 45px;
   `}

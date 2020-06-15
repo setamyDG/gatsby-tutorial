@@ -17,11 +17,12 @@ const ContactContent = styled.div`
 `;
 
 const StyledTitle = styled.h1`
-  color: #e43f5a;;
+  color: #e43f5a;
+  margin-top: 150px;
   text-transform: uppercase;
   font-family: "Russo One";
   ${media.tablet`
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 55px;
   `}
   ${media.mobile`
@@ -31,7 +32,7 @@ const StyledTitle = styled.h1`
 
 const StyledSubtitle = styled.p`
   font-size: 20px;
-  color: #e43f5a;;
+  color: #e43f5a;
   ${media.tablet`
   margin-top: -35px;
   font-size: 18px;

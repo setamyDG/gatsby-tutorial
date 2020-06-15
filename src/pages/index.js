@@ -21,8 +21,9 @@ const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
   font-family: "Russo One";
+  margin-top: 150px;
   ${media.tablet`
-  margin-top: -40px;
+  margin-top: -0px;
   margin-bottom: 55px;
   `}
   ${media.mobile`

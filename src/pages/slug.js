@@ -20,15 +20,15 @@ const TestContent = styled.div`
 const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
-  margin-top: 75px;
+  margin-top: 150px;
   font-size: 25px;
   font-family: "Russo One";;
   ${media.tablet`
-  margin-top: -50px;
+  margin-top: -0px;
   margin-bottom: 45px;
   `}
   ${media.mobile`
-  margin-top: -60px;
+  margin-top: -0px;
   font-size: 24px;
   `}
 `;

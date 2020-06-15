@@ -33,6 +33,9 @@ const StyledImage = styled.img`
   width: 50px; 
   height: 50px; 
   margin: 0 .5rem 0 0;
+  ${media.mobile`
+    display: none
+  `}
  `;
 
 const NavigationContainer = () => (
