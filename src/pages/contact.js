@@ -56,7 +56,7 @@ const StyledDescription = styled.p`
 export default function Contact() {
   return (
     <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
-      <SEO title="Contact Page" />
+      <SEO title="Contact" />
       <ContactContent>
         <StyledTitle>contact page</StyledTitle>
         <StyledSubtitle>send me a message via Slack or Email =)</StyledSubtitle>

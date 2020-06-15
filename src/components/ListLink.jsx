@@ -13,7 +13,7 @@ const StyledLink = styled(Link)`
   font-size: 15px;
   text-decoration: none;
   :hover {
-  border-bottom: 1px solid white
+  border-bottom: 3px solid white
   }
 `;
 
