@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Layout from "../components/layout";
 import media from "../utils/media";
 import Footer from "../components/footer";
+import SEO from "../components/seo"
 
 const TestContent = styled.div`
   height: 65vh;
@@ -64,6 +65,7 @@ const PostDateText = styled.span`
 export default function Home({ data }) {
   return (
     <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
+      <SEO title="Slug" />
       <TestContent>
         <StyledTitle>
           Click on post and redirect to

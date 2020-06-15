@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
+import SEO from "../components/seo";
 import media from "../utils/media";
 
 const PostContentContainer = styled.div`
@@ -66,6 +67,7 @@ export default function BlogPost({ data }) {
       <PostContentContainer>
         <StyledContentSlug>
           <StyledTitle>Local data page</StyledTitle>
+          <SEO title={post.frontmatter.title} description={post.excerpt} />
           <StyledDiv dangerouslySetInnerHTML={{ __html: post.html }} />
         </StyledContentSlug>
       </PostContentContainer>
@@ -78,6 +80,10 @@ export const query = graphql`
     query($slug: String!) {
         markdownRemark(fields: { slug: { eq: $slug } }) {
             html
+            frontmatter {
+                title
+            }
+            excerpt
         }
     }
 `;

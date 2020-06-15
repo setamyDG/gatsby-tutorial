@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import media from "../utils/media";
 import CustomButton from "../components/customButton";
 import Footer from "../components/footer";
+import SEO from "../components/seo";
 
 const AboutContent = styled.div`
   height: 65vh;
@@ -43,6 +44,7 @@ const StyledSubtitle = styled.p`
 export default function About({ data }) {
   return (
     <Layout bg="https://images8.alphacoders.com/679/679478.jpg">
+      <SEO title="About" />
       <AboutContent>
         <StyledTitle>{data.site.siteMetadata.title}</StyledTitle>
         <StyledSubtitle>
@@ -64,6 +66,7 @@ export const query = graphql`
         site {
             siteMetadata {
                 title
+                description
             }
         }
     }

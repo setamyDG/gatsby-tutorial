@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const StyledLi = styled.li`
   display: inline-block;
@@ -18,9 +18,11 @@ const StyledLink = styled(Link)`
 `;
 
 const ListLink = (props) => (
-  <StyledLi>
-    <StyledLink to={props.to}>{props.children}</StyledLink>
-  </StyledLi>
+  <ul>
+    <StyledLi>
+      <StyledLink to={props.to}>{props.children}</StyledLink>
+    </StyledLi>
+  </ul>
 );
 
 export default ListLink;

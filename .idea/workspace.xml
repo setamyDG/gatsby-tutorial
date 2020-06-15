@@ -19,10 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="change footer color text">
+    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="fixed wave responsivity &amp; added property styles to sites(change margins)">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListLink.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
@@ -57,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -70,14 +74,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gatsby-tutorial\src\utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/localData" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="F:\gatsby-tutorial\src\utils" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -104,7 +109,7 @@
       <workItem from="1591972264326" duration="1444000" />
       <workItem from="1591974327561" duration="229000" />
       <workItem from="1592116835700" duration="869000" />
-      <workItem from="1592203224532" duration="2132000" />
+      <workItem from="1592203224532" duration="9180000" />
     </task>
     <task id="LOCAL-00001" summary="added links and new pages">
       <created>1591688306104</created>
@@ -218,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591972376189</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixed wave responsivity &amp; added property styles to sites(change margins)">
+      <created>1592205799475</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592205799475</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +265,8 @@
     <MESSAGE value="Add new styles to slug pages" />
     <MESSAGE value="update footer text" />
     <MESSAGE value="change footer color text" />
-    <option name="LAST_COMMIT_MESSAGE" value="change footer color text" />
+    <MESSAGE value="fixed wave responsivity &amp; added property styles to sites(change margins)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed wave responsivity &amp; added property styles to sites(change margins)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#ESLint" timestamp="1591865869881">
@@ -296,11 +309,11 @@
     </state>
     <state x="221" y="66" key="SettingsEditor/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591692880796" />
     <state x="221" y="66" key="SettingsEditor/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591703521852" />
-    <state x="853" y="185" key="Vcs.Push.Dialog.v2" timestamp="1591972397410">
-      <screen x="0" y="0" width="3840" height="1040" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1592205805051">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="853" y="185" key="Vcs.Push.Dialog.v2/0.0.3840.1040@0.0.3840.1040" timestamp="1591972397410" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591691831778" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1592205805051" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591702642847" />
     <state x="496" y="323" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591687158374">
       <screen x="0" y="23" width="1440" height="806" />
