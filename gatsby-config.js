@@ -35,6 +35,15 @@ module.exports = {
         icon: "src/assets/images/icon.png", // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /static/,
+        },
+      },
+    },
+
     "gatsby-transformer-remark",
     "gatsby-plugin-styled-components",
     "gatsby-transformer-sharp",

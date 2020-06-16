@@ -48,6 +48,7 @@ const NavigationContainer = () => (
     <ListLink to="/about">ABOUT</ListLink>
     <ListLink to="/my-files">FILES</ListLink>
     <ListLink to="/slug">SLUG</ListLink>
+    <ListLink to="/gsap">GSAP</ListLink>
   </StyledNavigationContainer>
 );
 
