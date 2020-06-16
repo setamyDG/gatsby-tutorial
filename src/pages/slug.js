@@ -6,7 +6,7 @@ import media from "../utils/media";
 import Footer from "../components/footer";
 import SEO from "../components/seo";
 
-const TestContent = styled.div`
+const TestContent = styled.main`
   height: 65vh;
   width: 100vw;
   z-index: 1;
@@ -21,7 +21,7 @@ const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
   margin-top: 150px;
-  font-size: 25px;
+  font-size: 1.4rem;
   ${media.tablet`
   margin-top: -0px;
   margin-bottom: 45px;
@@ -33,14 +33,14 @@ const StyledTitle = styled.h1`
 `;
 
 const StyledSubtitle = styled.p`
-  font-size: 20px;
+  font-size: 1.3rem;
   color: #e43f5a;
-  ${media.tablet`
-  margin-top: -35px;
-  font-size: 18px;
+    ${media.tablet`
+      margin-top: -35px;
+      font-size: 18px;
   `}
-  ${media.mobile`
-  font-size: 18px;
+    ${media.mobile`
+      font-size: 18px;
   `}
 `;
 

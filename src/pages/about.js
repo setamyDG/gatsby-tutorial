@@ -7,7 +7,7 @@ import CustomButton from "../components/customButton";
 import Footer from "../components/footer";
 import SEO from "../components/seo";
 
-const AboutContent = styled.div`
+const AboutContent = styled.main`
   height: 65vh;
   width: 100vw;
   z-index: 1;
@@ -22,22 +22,21 @@ const StyledTitle = styled.h1`
   color: #e43f5a;
   text-transform: uppercase;
   margin-top: 150px;
-  ${media.tablet`
-  margin-top: 0px;
-  margin-bottom: 55px;
+    ${media.tablet`
+      margin-top: 0px;
+      margin-bottom: 55px;
+   `}
+    ${media.mobile`
+      margin-top: -0px;
+      font-size: 1.5rem;
   `}
-  ${media.mobile`
-  margin-top: -0px;
-  font-size: 30px;
-  `}
-
 `;
+
 const StyledSubtitle = styled.p`
   font-size: 20px;
   color: #e43f5a;
   ${media.tablet`
   margin-top: -50px;
-  font-size: 18px;
   `}
 `;
 

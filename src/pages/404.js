@@ -14,7 +14,7 @@ const StyledContainer = styled.div`
   flex-flow: column;
 `;
 
-const StyledTitle = styled.h1`
+const StyledTitle = styled.main`
   color: white;
   font-size: 72px;
   margin-top: -350px;
@@ -30,23 +30,20 @@ const StyledNumber = styled(StyledTitle)`
 `;
 
 const StyledLinkContainer = styled.div`
- height: 100px;
- width: 270px;
- display: flex;
- align-items: center;
- margin-top: 100px;
- justify-content: center;
- text-align: center;
- background: transparent;
- border: 1px solid #e43f5a;
- backdrop-filter: blur(5px);
- :hover {
- cursor:pointer;
- box-shadow: 0 4px 5px rgba(0,0,0, .3);
- }
- > Link {
+  height: 100px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
   justify-content: center;
- }
+  text-align: center;
+  background: transparent;
+  border: 1px solid #e43f5a;
+  backdrop-filter: blur(5px);
+    :hover {
+     cursor:pointer;
+     box-shadow: 0 4px 5px rgba(0,0,0, .3);
+  }
 `;
 
 const StyledLink = styled(Link)`

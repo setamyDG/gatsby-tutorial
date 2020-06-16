@@ -34,7 +34,7 @@ export default function Layout({ children, bg }) {
         <GlobalStyle />
         <StyledContainer>
           <NavigationContainer />
-          <Header title={data.site.siteMetadata.title} background={bg} />
+          <Header title={data.site.siteMetadata.title} bg={bg} />
           {children}
         </StyledContainer>
       </>

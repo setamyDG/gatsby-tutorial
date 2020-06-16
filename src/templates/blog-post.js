@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 import SEO from "../components/seo";
 import media from "../utils/media";
 
-const PostContentContainer = styled.div`
+const PostContentContainer = styled.main`
   height: 65vh;
   width: 100vw;
   z-index: 1;
@@ -17,15 +17,14 @@ const PostContentContainer = styled.div`
 const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
-  font-family: "Russo One";
   margin-top: 200px;
-  ${media.tablet`
-  margin-top: 10px;
-  margin-bottom: 10px;
+    ${media.tablet`
+      margin-top: 10px;
+      margin-bottom: 10px;
   `}
-  ${media.mobile`
-  font-size: 30px;
-  margin-top: -10px;
+    ${media.mobile`
+      font-size: 30px;
+      margin-top: -10px;
   `}
 `;
 
@@ -50,12 +49,12 @@ const StyledDiv = styled.div`
   align-items: center;
   flex-flow: column;
   justify-content: center;
-  ${media.tablet`
-  margin-top: 0px;
-  margin-bottom: 10px;
+    ${media.tablet`
+      margin-top: 0px;
+      margin-bottom: 10px;
   `}
-  ${media.mobile`
-  margin-top: -15px;
+    ${media.mobile`
+      margin-top: -15px;
   `}
 `;
 

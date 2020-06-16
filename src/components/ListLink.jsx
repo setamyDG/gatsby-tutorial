@@ -9,18 +9,17 @@ const StyledLi = styled.li`
 `;
 
 const StyledLink = styled(Link)`
-  color: #e43f5a;;
-  font-size: 15px;
+  color: #e43f5a;
   text-decoration: none;
-  :hover {
-  border-bottom: 3px solid white
-  }
+    :hover {
+      border-bottom: 3px solid white;
+    }
 `;
 
-const ListLink = (props) => (
+const ListLink = ({ to, children }) => (
   <ul>
     <StyledLi>
-      <StyledLink to={props.to} >{props.children}</StyledLink>
+      <StyledLink to={to}>{children}</StyledLink>
     </StyledLi>
   </ul>
 );

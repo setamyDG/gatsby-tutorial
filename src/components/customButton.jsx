@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.button`
-  font-size: 1em;
+  font-size: 1.5rem;
   margin: 1em;
   padding: 0.25em 1em;
   background: #e43f5a;
@@ -10,10 +10,10 @@ const Button = styled.button`
   border-radius: 3px;
   color: ${({ theme }) => theme.colors.white};
   border: 2px solid #e43f5a;
-  :hover{
-  cursor:pointer;
-  box-shadow: 0 4px 5px rgba(0,0,0, .3);
-  }
+    :hover{
+      cursor:pointer;
+      box-shadow: 0 4px 5px rgba(0,0,0, .3);
+    }
 `;
 
 const CustomButton = () => (

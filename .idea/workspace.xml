@@ -19,12 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="change title in contact page by seo &amp; make bigger hover effect on navigation link">
+    <list default="true" id="01a74eb5-700b-42c6-b770-e8b41d966aa0" name="Default Changelist" comment="deleted unused font-family declarations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavigationContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/customButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/golbalStyle/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/golbalStyle/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/my-files.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/my-files.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/slug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/slug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +74,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="F:\Projects\Gatsby\gatsby-tutorial-codetain\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +112,9 @@
       <workItem from="1591972264326" duration="1444000" />
       <workItem from="1591974327561" duration="229000" />
       <workItem from="1592116835700" duration="869000" />
-      <workItem from="1592203224532" duration="17434000" />
+      <workItem from="1592203224532" duration="18491000" />
+      <workItem from="1592243341001" duration="1389000" />
+      <workItem from="1592289575489" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="added links and new pages">
       <created>1591688306104</created>
@@ -264,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592225506600</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="deleted unused font-family declarations">
+      <created>1592226269128</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1592226269128</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +326,8 @@
     <MESSAGE value="margin fixes" />
     <MESSAGE value="css fixes with theme" />
     <MESSAGE value="change title in contact page by seo &amp; make bigger hover effect on navigation link" />
-    <option name="LAST_COMMIT_MESSAGE" value="change title in contact page by seo &amp; make bigger hover effect on navigation link" />
+    <MESSAGE value="deleted unused font-family declarations" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted unused font-family declarations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#ESLint" timestamp="1591865869881">
@@ -344,18 +365,19 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1379" height="195" key="GridCell.Tab.0.right/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591687203409" />
-    <state x="221" y="66" key="SettingsEditor" timestamp="1591703521852">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="221" y="66" key="SettingsEditor" timestamp="1592248940289">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="221" y="66" key="SettingsEditor/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1591692880796" />
+    <state x="221" y="66" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1592248940289" />
     <state x="221" y="66" key="SettingsEditor/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591703521852" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1592225512789">
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1592226280854">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="853" y="185" key="Vcs.Push.Dialog.v2/0.0.3840.1040@0.0.3840.1040" timestamp="1591972397410" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.806/-543.-1417.2560.1417@0.23.1440.806" timestamp="1592215275223" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.808/-543.-1417.2560.1417@0.23.1440.808" timestamp="1591702642847" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.877/-543.-1417.2560.1337@0.23.1440.877" timestamp="1592225512789" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.877/-543.-1417.2560.1337@0.23.1440.877" timestamp="1592226280854" />
     <state x="496" y="323" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591687158374">
       <screen x="0" y="23" width="1440" height="806" />
     </state>

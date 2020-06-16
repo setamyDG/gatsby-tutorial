@@ -6,7 +6,7 @@ import media from "../utils/media";
 import Footer from "../components/footer";
 import SEO from "../components/seo";
 
-const HomeContent = styled.div`
+const HomeContent = styled.main`
   height: 65vh;
   width: 100vw;
   z-index: 1;
@@ -21,15 +21,15 @@ const StyledTitle = styled.h1`
   color: #e43f5a;;
   text-transform: uppercase;
   margin-top: 150px;
-  ${media.tablet`
-  margin-top: -0px;
-  margin-bottom: 55px;
+    ${media.tablet`
+      margin-top: -0px;
+      margin-bottom: 55px;
   `}
-  ${media.mobile`
-  font-size: 30px;
+    ${media.mobile`
+      font-size: 30px;
   `}
-
 `;
+
 const StyledSubtitle = styled.p`
   font-size: 20px;
   color: #e43f5a;;
@@ -43,14 +43,7 @@ const StyledSubtitle = styled.p`
 `;
 
 const StyledDescription = styled.p`
-  font-size: 15px;
   color: #e43f5a;
-  ${media.tablet`
-  font-size: 18px;
-  `}
-  ${media.mobile`
-  font-size: 16px;
-  `}
 `;
 
 const StyledData = styled(StyledDescription)`

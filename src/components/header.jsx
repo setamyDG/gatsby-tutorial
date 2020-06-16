@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { theme } from "../utils/theme";
 import media from "../utils/media";
 
-const StyledHeader = styled.div`
+const StyledHeader = styled.header`
   width: 100vw;
   height: 500px;
   background: ${(props) => `url(${props.background}) no-repeat top center`};;
@@ -20,7 +20,7 @@ const StyledHeader = styled.div`
 const StyledTitle = styled.h1`
   font-weight: ${({ theme }) => theme.font.bold};
   font-family: "Russo One";
-  color: ${({theme}) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.white};
   margin-top: 200px;
   border-bottom: 1px solid white;
   font-size: 50px;
@@ -29,13 +29,12 @@ const StyledTitle = styled.h1`
 
 const StyledSubtitle = styled.p`
   font-weight: ${({ theme }) => theme.font.normal};
-  color: ${({theme}) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.white};
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.3rem;
 `;
 
 const StyledName = styled(StyledSubtitle)`
-  font-size: 16px;
   font-weight: ${({ theme }) => theme.font.normal};
 `;
 
@@ -52,9 +51,9 @@ const StyledSvg = styled.svg`
   `}
 `;
 
-const Header = (props) => (
-  <StyledHeader background={props.background}>
-    <StyledTitle>{props.title}</StyledTitle>
+const Header = ({ title, bg}) => (
+  <StyledHeader background={bg}>
+    <StyledTitle>{title}</StyledTitle>
     <StyledSubtitle>-Codetain tutorial 2020-</StyledSubtitle>
     <StyledName>Daniel Gola</StyledName>
     <div>
@@ -69,10 +68,10 @@ export default Header;
 
 Header.defaultProps = {
   title: "Gatsby.js",
-  background: "",
+  bg: "",
 };
 
 Header.propTypes = {
   title: PropTypes.string,
-  background: PropTypes.string,
+  bg: PropTypes.string,
 };

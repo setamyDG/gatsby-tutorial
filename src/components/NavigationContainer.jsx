@@ -4,7 +4,7 @@ import media from "../utils/media";
 import logo from "../assets/images/gatsby-logo.png";
 import ListLink from "./ListLink";
 
-const StyledNavigationContainer = styled.div`
+const StyledNavigationContainer = styled.nav`
   width: 750px;
   height: 7vh;
   top:0;

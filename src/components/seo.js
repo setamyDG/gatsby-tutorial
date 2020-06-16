@@ -62,6 +62,7 @@ function SEO({
           name: "twitter:description",
           content: metaDescription,
         },
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"/>
       ].concat(meta)}
     />
   );
