@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { media } from '../../utils';
 import { useStaticQuery, graphql } from 'gatsby';
@@ -95,9 +95,8 @@ const BlogSection = () => {
 
   return (
     <Container>
-      <h3 onClick={() => console.log(data.posts.edges)}>Publications</h3>
+      <h3>Publications</h3>
       {data.posts.edges.map((post, index) => {
-        console.log(post);
         return (
           <Blog key={index}>
             <BlogTextContainer>
