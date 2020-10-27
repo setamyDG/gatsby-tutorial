@@ -1,42 +1,47 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
-    title: "Gatsby.js",
-    description: "This is page description - tutorial from gatsby doc made by Daniel Gola - Codetain 2020",
-    author: "Daniel Gola",
+    title: 'DG Development',
+    description: 'Daniel Gola - portfolio website',
+    author: 'Daniel Gola',
   },
   plugins: [
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "src",
+        name: 'src',
         path: `${__dirname}/src/`,
       },
     },
     {
-      resolve: "gatsby-plugin-google-fonts",
+      resolve: 'gatsby-plugin-layout',
       options: {
-        fonts: [
-          "Russo One",
-        ],
-        display: "swap",
+        component: require.resolve('./src/layout/layout.jsx'),
       },
     },
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-source-datocms',
       options: {
-        name: "GatsbyJS",
-        short_name: "GatsbyJS",
-        start_url: "/",
-        background_color: "#fff",
-        theme_color: "#fff",
+        apiToken: process.env.DATO_CMS_TOKEN,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'GatsbyJS',
+        short_name: 'GatsbyJS',
+        start_url: '/',
+        background_color: '#fff',
+        theme_color: '#fff',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: "standalone",
-        icon: "src/assets/images/icon.png", // This path is relative to the root of the site.
+        display: 'standalone',
+        icon: 'src/assets/images/icon.png', // This path is relative to the root of the site.
       },
     },
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
           include: /static/,
@@ -44,11 +49,10 @@ module.exports = {
       },
     },
 
-    "gatsby-transformer-remark",
-    "gatsby-plugin-styled-components",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-offline",
-    "gatsby-plugin-react-helmet",
+    'gatsby-transformer-remark',
+    'gatsby-plugin-styled-components',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-react-helmet',
   ],
 };
